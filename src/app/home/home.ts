@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { HousingLocation } from '../housing-location/housing-location';
-import {HousingLocationInfo} from '../housinglocation';
+import { HousingLocationInfo } from '../housinglocation';
 
 @Component({
   imports: [HousingLocation],
@@ -14,8 +14,9 @@ import {HousingLocationInfo} from '../housinglocation';
       </form>
     </section>
      <section class="results">
-      <app-housing-location />
+      <app-housing-location [housingLocation]="housingLocation" />
     </section>
+   
   `,
 })
 
