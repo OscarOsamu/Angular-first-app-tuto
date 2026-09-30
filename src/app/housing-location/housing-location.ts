@@ -4,7 +4,7 @@ import { HousingLocationInfo } from '../housinglocation';
 @Component({
   imports: [],
   selector: 'app-housing-location',
-  styles: ``,
+  styleUrls: ['./housing-location.css'],
   template: `
     <section class="listing">
       <img
